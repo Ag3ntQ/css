@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+   body{
+     margin:10px;
+     align-content:center;
+   }
+   .heading{
+     text-align: center;
+     color:#2d6efa;
+   }
+  .sub_head{
+    background-color:#68ea73;
+    text-align: center;
+    border:2px solid black;
+  }
+  .box{
+    display:block;
+    margin:auto;
+    margin-top:5px;
+    border:2px solid black;
+    width:320px;
+    
+  }
+ .sub_box{
+   margin-top:10px;
+   margin-left:10px;
+   width:300px;
+   height:140px;
+   border:2px solid black;
+ }
+ .normal{
+  background-color:#6cd8f3;
+ }
+.opa{
+  background-color:#6cd8f3;
+  opacity:.4;
+}
+.line{
+  background-image:linear-gradient(to right,#a9ed7dff,#6ae29eff);
+}
+ .to_b_r{
+   background-image:linear-gradient(to bottom right,#6fd3f0,#86f172);
+}
+ p{
+   text-align:center;
+   font-weight: bold;
+ }
+ h3{
+   text-align:center;
+ }
+  </style>
+  <title>Bg_color</title>
+</head>
+<body>
+  <h1 class="heading">Background_Css</h1>
+  <h2 class="sub_head">background-color</h2>
+  <div class="box">
+    <div class="normal sub_box"></div>
+      <p>background-color:#6cd8f3;</p>
+     </div>
+  <div class="box">
+   <div class="opa sub_box"></div>
+     <p>background-color:#6cd8f3</p>
+     <p>opacity:.4;</p>
+  </div>
+   <h2 class="sub_head">background-image</h2>
+ <div class="box">
+   <h3>Syntax</h3>
+   <p>
+   background-image: linear-gradient(direction, color-stop1, color-stop2, ...);
+   </p>
+ </div>
+ <div class="box">
+  <div class="line sub_box"></div>
+     <p> background-image:linear-gradient(to right,#a9ed7dff,#6ae29eff);</p>
+  </div>
+  <div class="box">
+    <div class="to_b_r sub_box"></div>
+    <p>background-image:linear-gradient(to bottom right,#6fd3f0,#86f172);</p>
+   </div>
+ 
+ 
+</body>
+</html>
